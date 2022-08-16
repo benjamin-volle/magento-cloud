@@ -1111,16 +1111,16 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v0.21.1",
+            "version": "v0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284"
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/9851da5ef228ff24b2d686e975a7189291acf284",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1168,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-08T16:47:24+00:00"
+            "time": "2022-08-08T17:03:30+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -3134,11 +3134,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.17.0.zip",
-                "shasum": "12eba80d90ae72376b4850970abc5f3c8c019814"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
+                "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -13959,11 +13959,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.17.0.zip",
-                "shasum": "569abb56369ac6f0e18d09f76bc53e79d0c3ea08"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
+                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
             },
             "require": {
                 "ext-json": "*",
@@ -14319,16 +14319,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.60.0",
+            "version": "2.61.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6"
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/00a259ae02b003c563158b54fb6743252b638ea6",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
                 "shasum": ""
             },
             "require": {
@@ -14412,7 +14412,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-27T15:57:48+00:00"
+            "time": "2022-08-06T12:41:24+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -17548,6 +17548,7 @@
                 "idna",
                 "punycode"
             ],
+            "abandoned": true,
             "time": "2016-11-16T10:37:54+00:00"
         },
         {
