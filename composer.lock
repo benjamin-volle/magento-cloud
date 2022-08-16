@@ -318,16 +318,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.232.1",
+            "version": "3.233.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7e79325815640d21f3bcab9889f7002a8268d674"
+                "reference": "c804eb974240ae04b4ae5381f45003f25bbed56c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e79325815640d21f3bcab9889f7002a8268d674",
-                "reference": "7e79325815640d21f3bcab9889f7002a8268d674",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c804eb974240ae04b4ae5381f45003f25bbed56c",
+                "reference": "c804eb974240ae04b4ae5381f45003f25bbed56c",
                 "shasum": ""
             },
             "require": {
@@ -401,7 +401,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2022-08-03T18:16:18+00:00"
+            "time": "2022-08-15T18:16:30+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1215,16 +1215,16 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v0.21.1",
+            "version": "v0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284"
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/9851da5ef228ff24b2d686e975a7189291acf284",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
                 "shasum": ""
             },
             "require": {
@@ -1272,7 +1272,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-08T16:47:24+00:00"
+            "time": "2022-08-08T17:03:30+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -2478,23 +2478,25 @@
         },
         {
             "name": "khanamiryan/qrcode-detector-decoder",
-            "version": "1.0.5.2",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khanamiryan/php-qrcode-detector-decoder.git",
-                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1"
+                "reference": "45326fb83a2a375065dbb3a134b5b8a5872da569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/04fdd58d86a387065f707dc6d3cc304c719910c1",
-                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1",
+                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/45326fb83a2a375065dbb3a134b5b8a5872da569",
+                "reference": "45326fb83a2a375065dbb3a134b5b8a5872da569",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7 | ^7.5 | ^8.0 | ^9.0"
+                "phpunit/phpunit": "^5.7 | ^7.5 | ^8.0 | ^9.0",
+                "rector/rector": "^0.13.6",
+                "symplify/easy-coding-standard": "^11.0"
             },
             "type": "library",
             "autoload": {
@@ -2525,7 +2527,7 @@
                 "qr",
                 "zxing"
             ],
-            "time": "2021-07-13T18:46:38+00:00"
+            "time": "2022-06-29T09:25:13+00:00"
         },
         {
             "name": "klarna/m2-payments",
@@ -5461,15 +5463,15 @@
         },
         {
             "name": "magento/adobe-ims",
-            "version": "2.1.3",
+            "version": "2.1.3-p1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/adobe-ims/magento-adobe-ims-2.1.3.0.zip",
-                "shasum": "d1c366fa17d053aac4d121c4839978db56e95e3a"
+                "url": "https://repo.magento.com/archives/magento/adobe-ims/magento-adobe-ims-2.1.3.0-patch1.zip",
+                "shasum": "2c624ed26ce7329a0b66337cf958a6cfca0a4631"
             },
             "require": {
-                "magento/module-adobe-ims": "2.1.*",
-                "magento/module-adobe-ims-api": "2.1.*"
+                "magento/module-adobe-ims": "2.1.3",
+                "magento/module-adobe-ims-api": "2.1.1"
             },
             "type": "metapackage",
             "description": "Adobe IMS Integration"
@@ -6265,11 +6267,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.17.0.zip",
-                "shasum": "12eba80d90ae72376b4850970abc5f3c8c019814"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
+                "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -21337,11 +21339,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.17.0.zip",
-                "shasum": "569abb56369ac6f0e18d09f76bc53e79d0c3ea08"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
+                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
             },
             "require": {
                 "ext-json": "*",
@@ -21726,16 +21728,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.60.0",
+            "version": "2.61.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6"
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/00a259ae02b003c563158b54fb6743252b638ea6",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
                 "shasum": ""
             },
             "require": {
@@ -21819,7 +21821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-27T15:57:48+00:00"
+            "time": "2022-08-06T12:41:24+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
