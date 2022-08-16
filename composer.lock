@@ -1111,16 +1111,16 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v0.21.1",
+            "version": "v0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284"
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/9851da5ef228ff24b2d686e975a7189291acf284",
-                "reference": "9851da5ef228ff24b2d686e975a7189291acf284",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
+                "reference": "5ab8d46a79f50291905c4f45cfeb69ee31ec1394",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1168,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-08T16:47:24+00:00"
+            "time": "2022-08-08T17:03:30+00:00"
         },
         {
             "name": "dotmailer/dotmailer-magento2-extension",
@@ -2705,18 +2705,16 @@
         },
         {
             "name": "magento/inventory-composer-installer",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/inventory-composer-installer/magento-inventory-composer-installer-1.1.0.0.zip",
-                "shasum": "c52566b82926bb37487a2b3cb2c8ae091be9be9e"
+                "url": "https://repo.magento.com/archives/magento/inventory-composer-installer/magento-inventory-composer-installer-1.2.0.0.zip",
+                "shasum": "b96336d0a80d70b39f225eeba240abbbf7820f78"
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "composer/composer": "^1.9 || ^2.0",
                 "magento/framework": "*"
-            },
-            "require-dev": {
-                "composer/composer": "*"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2735,61 +2733,61 @@
         },
         {
             "name": "magento/inventory-composer-metapackage",
-            "version": "1.1.6",
+            "version": "1.1.7-p1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/inventory-composer-metapackage/magento-inventory-composer-metapackage-1.1.6.0.zip",
-                "shasum": "7ea8ae2b3e6044d59b71939ed14837ba313b7059"
+                "url": "https://repo.magento.com/archives/magento/inventory-composer-metapackage/magento-inventory-composer-metapackage-1.1.7.0-patch1.zip",
+                "shasum": "42bda75f745e361b516419421742c70d4081b25d"
             },
             "require": {
-                "magento/inventory-composer-installer": "1.1.0",
-                "magento/module-inventory": "1.0.9",
-                "magento/module-inventory-admin-ui": "1.0.10",
-                "magento/module-inventory-advanced-checkout": "1.0.1",
-                "magento/module-inventory-api": "1.0.8",
-                "magento/module-inventory-bundle-product": "1.0.6",
-                "magento/module-inventory-bundle-product-admin-ui": "1.0.6",
-                "magento/module-inventory-cache": "1.0.7",
-                "magento/module-inventory-catalog": "1.0.10",
-                "magento/module-inventory-catalog-admin-ui": "1.0.9",
-                "magento/module-inventory-catalog-api": "1.1.2",
-                "magento/module-inventory-catalog-search": "1.0.8",
-                "magento/module-inventory-configurable-product": "1.0.8",
-                "magento/module-inventory-configurable-product-admin-ui": "1.0.7",
-                "magento/module-inventory-configurable-product-indexer": "1.0.6",
-                "magento/module-inventory-configuration": "1.0.7",
-                "magento/module-inventory-configuration-api": "1.0.7",
-                "magento/module-inventory-distance-based-source-selection": "1.0.3",
-                "magento/module-inventory-distance-based-source-selection-admin-ui": "1.0.2",
-                "magento/module-inventory-distance-based-source-selection-api": "1.0.3",
-                "magento/module-inventory-elasticsearch": "1.0.3",
-                "magento/module-inventory-export-stock": "1.0.2",
-                "magento/module-inventory-export-stock-api": "1.0.2",
-                "magento/module-inventory-graph-ql": "1.0.2",
-                "magento/module-inventory-grouped-product": "1.0.7",
-                "magento/module-inventory-grouped-product-admin-ui": "1.0.8",
-                "magento/module-inventory-grouped-product-indexer": "1.0.6",
-                "magento/module-inventory-import-export": "1.0.8",
-                "magento/module-inventory-indexer": "1.0.9",
-                "magento/module-inventory-low-quantity-notification": "1.0.9",
-                "magento/module-inventory-low-quantity-notification-admin-ui": "1.0.8",
-                "magento/module-inventory-low-quantity-notification-api": "1.0.6",
-                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.7",
-                "magento/module-inventory-product-alert": "1.0.8",
-                "magento/module-inventory-requisition-list": "1.0.1",
-                "magento/module-inventory-reservation-cli": "1.0.3",
-                "magento/module-inventory-reservations": "1.0.8",
-                "magento/module-inventory-reservations-api": "1.0.6",
-                "magento/module-inventory-sales": "1.0.9",
-                "magento/module-inventory-sales-admin-ui": "1.0.8",
-                "magento/module-inventory-sales-api": "1.0.7",
-                "magento/module-inventory-sales-frontend-ui": "1.0.6",
-                "magento/module-inventory-setup-fixture-generator": "1.0.3",
-                "magento/module-inventory-shipping": "1.0.8",
-                "magento/module-inventory-shipping-admin-ui": "1.0.9",
-                "magento/module-inventory-source-deduction-api": "1.0.8",
-                "magento/module-inventory-source-selection": "1.0.7",
-                "magento/module-inventory-source-selection-api": "1.2.2"
+                "magento/inventory-composer-installer": "^1.2.0",
+                "magento/module-inventory": "1.0.*",
+                "magento/module-inventory-admin-ui": "1.0.*",
+                "magento/module-inventory-advanced-checkout": "1.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-bundle-product": "1.0.*",
+                "magento/module-inventory-bundle-product-admin-ui": "1.0.*",
+                "magento/module-inventory-cache": "1.0.*",
+                "magento/module-inventory-catalog": "1.0.*",
+                "magento/module-inventory-catalog-admin-ui": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.1.*",
+                "magento/module-inventory-catalog-search": "1.0.*",
+                "magento/module-inventory-configurable-product": "1.0.*",
+                "magento/module-inventory-configurable-product-admin-ui": "1.0.*",
+                "magento/module-inventory-configurable-product-indexer": "1.0.*",
+                "magento/module-inventory-configuration": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-distance-based-source-selection": "1.0.*",
+                "magento/module-inventory-distance-based-source-selection-admin-ui": "1.0.*",
+                "magento/module-inventory-distance-based-source-selection-api": "1.0.*",
+                "magento/module-inventory-elasticsearch": "1.0.*",
+                "magento/module-inventory-export-stock": "1.0.*",
+                "magento/module-inventory-export-stock-api": "1.0.*",
+                "magento/module-inventory-graph-ql": "1.0.*",
+                "magento/module-inventory-grouped-product": "1.0.*",
+                "magento/module-inventory-grouped-product-admin-ui": "1.0.*",
+                "magento/module-inventory-grouped-product-indexer": "1.0.*",
+                "magento/module-inventory-import-export": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*",
+                "magento/module-inventory-low-quantity-notification": "1.0.*",
+                "magento/module-inventory-low-quantity-notification-admin-ui": "1.0.*",
+                "magento/module-inventory-low-quantity-notification-api": "1.0.*",
+                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*",
+                "magento/module-inventory-product-alert": "1.0.*",
+                "magento/module-inventory-requisition-list": "1.0.*",
+                "magento/module-inventory-reservation-cli": "1.0.*",
+                "magento/module-inventory-reservations": "1.0.*",
+                "magento/module-inventory-reservations-api": "1.0.*",
+                "magento/module-inventory-sales": "1.0.*",
+                "magento/module-inventory-sales-admin-ui": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-sales-frontend-ui": "1.0.*",
+                "magento/module-inventory-setup-fixture-generator": "1.0.*",
+                "magento/module-inventory-shipping": "1.0.*",
+                "magento/module-inventory-shipping-admin-ui": "1.0.*",
+                "magento/module-inventory-source-deduction-api": "1.0.*",
+                "magento/module-inventory-source-selection": "1.0.*",
+                "magento/module-inventory-source-selection-api": "1.2.*"
             },
             "type": "metapackage",
             "description": "Metapackage with Magento Inventory modules for simple installation"
@@ -3118,11 +3116,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.17.0.zip",
-                "shasum": "12eba80d90ae72376b4850970abc5f3c8c019814"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
+                "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -13468,11 +13466,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.17.0.zip",
-                "shasum": "569abb56369ac6f0e18d09f76bc53e79d0c3ea08"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
+                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
             },
             "require": {
                 "ext-json": "*",
@@ -13825,16 +13823,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.60.0",
+            "version": "2.61.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6"
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/00a259ae02b003c563158b54fb6743252b638ea6",
-                "reference": "00a259ae02b003c563158b54fb6743252b638ea6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
+                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
                 "shasum": ""
             },
             "require": {
@@ -13918,7 +13916,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-27T15:57:48+00:00"
+            "time": "2022-08-06T12:41:24+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -17050,6 +17048,7 @@
                 "idna",
                 "punycode"
             ],
+            "abandoned": true,
             "time": "2016-11-16T10:37:54+00:00"
         },
         {
