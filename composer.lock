@@ -5891,11 +5891,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.17.0.zip",
-                "shasum": "12eba80d90ae72376b4850970abc5f3c8c019814"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
+                "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -18257,11 +18257,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.17.0.zip",
-                "shasum": "569abb56369ac6f0e18d09f76bc53e79d0c3ea08"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
+                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
             },
             "require": {
                 "ext-json": "*",
