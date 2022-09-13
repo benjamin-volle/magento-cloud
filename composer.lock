@@ -504,16 +504,16 @@
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
-            "version": "v1.4.5",
+            "version": "v1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/php-redis-session-abstract.git",
-                "reference": "77ad0c1637ae6ea059f1f8e9fbdac6469242a16d"
+                "reference": "f80354dc7c20caef29c881972a7966732c8c9bbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/77ad0c1637ae6ea059f1f8e9fbdac6469242a16d",
-                "reference": "77ad0c1637ae6ea059f1f8e9fbdac6469242a16d",
+                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/f80354dc7c20caef29c881972a7966732c8c9bbd",
+                "reference": "f80354dc7c20caef29c881972a7966732c8c9bbd",
                 "shasum": ""
             },
             "require": {
@@ -540,7 +540,7 @@
             ],
             "description": "A Redis-based session handler with optimistic locking",
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
-            "time": "2021-12-01T21:16:01+00:00"
+            "time": "2022-08-16T22:35:13+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1659,16 +1659,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
-                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/b94b2807d85443f9719887892882d0329d1e2598",
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1735,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-22T20:56:57+00:00"
+            "time": "2022-08-28T14:55:35+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2487,11 +2487,11 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.1.11",
+            "version": "2002.1.12",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.11.0.zip",
-                "shasum": "2bbc634979d94c312e71d6ebc75f1d8740364418"
+                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.12.0.zip",
+                "shasum": "eaf47153ebb8339784ff07afc6da4c933971856c"
             },
             "require": {
                 "colinmollenhour/credis": "^1.6.0",
@@ -2973,11 +2973,11 @@
         },
         {
             "name": "magento/magento-cloud-components",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-components/magento-magento-cloud-components-1.0.11.0.zip",
-                "shasum": "9bef3a5f722d8c120ad9b78ff95d6341dbbda9b8"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-components/magento-magento-cloud-components-1.0.12.0.zip",
+                "shasum": "fcdedad0d990ef8eb6d76d0aa45ddda96a767ac9"
             },
             "require": {
                 "colinmollenhour/cache-backend-redis": "^1.9",
@@ -3016,11 +3016,11 @@
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-docker/magento-magento-cloud-docker-1.3.2.0.zip",
-                "shasum": "88f42039c7defabee4adbcf05d3da800c37e91fc"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-docker/magento-magento-cloud-docker-1.3.3.0.zip",
+                "shasum": "3844f7b281844b0da1451b69d2864601605073fd"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -3114,14 +3114,14 @@
         },
         {
             "name": "magento/magento-cloud-metapackage",
-            "version": "2.3.1-p1",
+            "version": "2.3.1-p2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-metapackage/magento-magento-cloud-metapackage-2.3.1.0-patch1.zip",
-                "shasum": "f1149c44bcd5e2b91ac1d41732b586e22eb0fa86"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-metapackage/magento-magento-cloud-metapackage-2.3.1.0-patch2.zip",
+                "shasum": "6117278160dfe2ffc8598bacba6c6880b620d6f4"
             },
             "require": {
-                "fastly/magento2": "^1.2.34",
+                "fastly/magento2": ">=1.2.34 <1.2.186",
                 "magento/ece-tools": "^2002.0.20",
                 "magento/module-paypal-on-boarding": "~100.3.0",
                 "magento/product-enterprise-edition": "2.3.1"
@@ -3134,11 +3134,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.18",
+            "version": "1.0.19",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
-                "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.19.0.zip",
+                "shasum": "6ccbf53012d85a7193c57c15c14afc54d516b90c"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -3147,12 +3147,12 @@
                 "magento/quality-patches": "^1.1.0",
                 "monolog/monolog": "^1.25||^2.3",
                 "php": "^7.2 || ^8.0",
-                "symfony/config": "^3.3||^4.4||^5.1",
-                "symfony/console": "^2.6||^4.0||^5.1",
-                "symfony/dependency-injection": "^3.3||^4.3||^5.1",
-                "symfony/process": "^2.1||^4.1||^5.1",
-                "symfony/proxy-manager-bridge": "^3.3||^4.3||^5.1",
-                "symfony/yaml": "^3.3||^4.0||^5.1"
+                "symfony/config": "^3.3||^4.4||^5.0",
+                "symfony/console": "^2.6||^4.0||^5.0",
+                "symfony/dependency-injection": "^3.3||^4.3||^5.0",
+                "symfony/process": "^2.1||^4.1||^5.0",
+                "symfony/proxy-manager-bridge": "^3.3||^4.3||^5.0",
+                "symfony/yaml": "^3.3||^4.0||^5.0"
             },
             "require-dev": {
                 "codeception/codeception": "^4.1",
@@ -13959,11 +13959,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.18",
+            "version": "1.1.19",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
-                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.19.0.zip",
+                "shasum": "69e88dfc904ba6dc370aec702b8579ad23f58930"
             },
             "require": {
                 "ext-json": "*",
@@ -14319,16 +14319,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.61.0",
+            "version": "2.62.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6"
+                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
-                "reference": "bdf4f4fe3a3eac4de84dbec0738082a862c68ba6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
+                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
                 "shasum": ""
             },
             "require": {
@@ -14412,7 +14412,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-06T12:41:24+00:00"
+            "time": "2022-09-02T07:48:13+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -14942,16 +14942,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.37",
+            "version": "2.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "c812fbb4d6b4d7f30235ab7298a12f09ba13b37c"
+                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c812fbb4d6b4d7f30235ab7298a12f09ba13b37c",
-                "reference": "c812fbb4d6b4d7f30235ab7298a12f09ba13b37c",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
+                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
                 "shasum": ""
             },
             "require": {
@@ -14966,7 +14966,8 @@
                 "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
                 "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+                "ext-xml": "Install the XML extension to load XML formatted public keys."
             },
             "type": "library",
             "autoload": {
@@ -15043,7 +15044,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-04T04:57:45+00:00"
+            "time": "2022-09-02T17:04:26+00:00"
         },
         {
             "name": "psr/container",
@@ -15500,16 +15501,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "9f3452c93ff423469c0d56450431562ca423dcee"
+                "reference": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/9f3452c93ff423469c0d56450431562ca423dcee",
-                "reference": "9f3452c93ff423469c0d56450431562ca423dcee",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
+                "reference": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
                 "shasum": ""
             },
             "require": {
@@ -15540,7 +15541,7 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2021-12-10T11:20:11+00:00"
+            "time": "2022-08-31T10:31:18+00:00"
         },
         {
             "name": "spomky-labs/otphp",
@@ -16031,16 +16032,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.11",
+            "version": "v5.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "6699fb0228d1bc35b12aed6dd5e7455457609ddd"
+                "reference": "2d67c1f9a1937406a9be3171b4b22250c0a11447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/6699fb0228d1bc35b12aed6dd5e7455457609ddd",
-                "reference": "6699fb0228d1bc35b12aed6dd5e7455457609ddd",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/2d67c1f9a1937406a9be3171b4b22250c0a11447",
+                "reference": "2d67c1f9a1937406a9be3171b4b22250c0a11447",
                 "shasum": ""
             },
             "require": {
@@ -16088,7 +16089,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-20T13:00:38+00:00"
+            "time": "2022-08-02T13:48:16+00:00"
         },
         {
             "name": "symfony/finder",
@@ -17336,16 +17337,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.44",
+            "version": "v4.4.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "c2b28c10fb3b7ac67bafa7b8f952cd83f35acde2"
+                "reference": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c2b28c10fb3b7ac67bafa7b8f952cd83f35acde2",
-                "reference": "c2b28c10fb3b7ac67bafa7b8f952cd83f35acde2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
+                "reference": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
                 "shasum": ""
             },
             "require": {
@@ -17400,7 +17401,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-27T13:16:42+00:00"
+            "time": "2022-08-02T15:47:23+00:00"
         },
         {
             "name": "tedivm/jshrink",
